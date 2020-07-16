@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #1a1110;
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #666;
+}
+
+h4 {
+  font-size: 60px;
+  text-align: center;
+}
+
+input,
+textarea,
+button {
+  border: 1px solid #666;
+  -webkit-box-shadow: 2px 2px 2px #666;
+          box-shadow: 2px 2px 2px #666;
+  font-size: 28px;
+  height: 42px;
+  margin: 3px 5%;
+  outline: none;
+  text-align: left;
+  text-shadow: none;
+  width: 90%;
+}
+
+textarea {
+  height: 210px;
+}
+
+button {
+  text-align: center;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 2%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .navbar-logo {
+  font-size: 42px;
+}
+
+.navbar .navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.navbar .navbar-links .navbar-link {
+  margin-left: 21px;
+}
+
+.private-route .pr-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.private-route .pr-links .pr-item {
+  margin: 12px 0;
+}
+
+.private-route .pr-links .pr-item .pr-link {
+  border: 2px solid #1a1110;
+  -webkit-box-shadow: 2px 2px 2px #666;
+          box-shadow: 2px 2px 2px #666;
+  font-size: 21px;
+  padding: 6px 14px;
+}
+/*# sourceMappingURL=style.css.map */
